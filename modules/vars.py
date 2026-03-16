@@ -5,19 +5,19 @@ from os import environ
 
 API_ID = int(environ.get("API_ID", "29136894"))
 API_HASH = environ.get("API_HASH", "88f3d07b70de48ac1fc13866b0c9e562")
-BOT_TOKEN = environ.get("BOT_TOKEN", "8520965543:AAG7tOwB34TOfyVc8t0JUNTBg2W7VlR09OU")
+BOT_TOKEN = environ.get("BOT_TOKEN", "8669466068:AAFLiY2J2b25vruqF0LCGG40GVoBDqd2MjI")
 
-OWNER = int(environ.get("OWNER", "8494053059"))
-CREDIT = environ.get("CREDIT", '👨‍💻𝐂𝐋𝐀𝐓 𝐎𝐖𝐍𝐄𝐑')
-CREDIT_LINK = environ.get("CREDIT_LINK", 'https://t.me/CLAT_OWNER')
+OWNER = int(environ.get("OWNER", "7566796700"))
+CREDIT = environ.get("CREDIT", '𓍯𝙎𝙪𝙟𝙖𝙡⚝')
+CREDIT_LINK = environ.get("CREDIT_LINK", 'https://t.me/Erinxlevi')
 cookies_file_path = os.getenv("cookies_file_path", "youtube_cookies.txt")
 
 # MongoDB Configuration
-MONGO_URL = environ.get("MONGO_URL", "mongodb+srv://ownermood1_db_user:v9EoPgbKuSdeoOWb@cluster0.zmernea.mongodb.net/?appName=Cluster0")
+MONGO_URL = environ.get("MONGO_URL", "mongodb+srv://kuldiprathod2003:kuldiprathod2003@cluster0.wxqpikp.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get("DATABASE_NAME", "eagle")
 
 # Owner and Admin Configuration
-OWNER_ID = int(environ.get("OWNER_ID", "8494053059"))  # Use OWNER as fallback
+OWNER_ID = int(environ.get("OWNER_ID", "7566796700"))  # Use OWNER as fallback
 ADMINS = [OWNER_ID]  # Can be extended via environment
   
 #WEBHOOK = True  # Don't change this
